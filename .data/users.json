@@ -1,0 +1,56 @@
+[
+  {
+    "id": "usr_admin_001",
+    "name": "GiftGenie Owner",
+    "email": "admin@giftgenie.com",
+    "password": "$2b$10$cTwrG2f8LZVHNuQjd4xgM.GMzaRG74eFTfoOu1WoqdYkOf4isY8R6",
+    "role": "admin",
+    "createdAt": "2026-10-06T06:44:56.762Z",
+    "lastSignInAt": "2026-10-06T06:44:56.762Z"
+  },
+  {
+    "id": "usr_1791267055173_9vrqd",
+    "name": "Demo User",
+    "email": "demo@acme.test",
+    "password": "$2b$10$/1Q07JsLk5GQgMqLZxCep.ZOZFdgylrK77yT44CrL6ncxlnRd2EUe",
+    "role": "user",
+    "createdAt": "2026-10-06T06:10:55.088Z",
+    "lastSignInAt": "2026-10-06T06:10:59.876Z"
+  },
+  {
+    "id": "usr_1791267258354_rwdd4",
+    "name": "abhay",
+    "email": "abhay@gmail.com",
+    "password": "$2b$10$26JHlyQLRQUnjqubHqcJGOUgO9z3OyAtNPVGiZuFTDnaGTXDgdFFq",
+    "role": "user",
+    "createdAt": "2026-10-06T06:14:18.251Z",
+    "lastSignInAt": "2026-10-06T06:14:45.565Z"
+  },
+  {
+    "id": "usr_1791267328602_xorcj",
+    "name": "rahul",
+    "email": "rahul@giftverse.in",
+    "password": "$2b$10$zbmbNAOly0d/tT3CP1604eEEWvzz3qGDRIuApa9aHkyoJu3e4m2ZK",
+    "role": "seller",
+    "createdAt": "2026-10-06T06:15:28.499Z",
+    "lastSignInAt": "2026-10-06T06:15:28.499Z"
+  },
+  {
+    "id": "usr_1791269096832_j18yy",
+    "name": "Test User",
+    "email": "testuser@example.com",
+    "password": "$2b$10$YNrQrHU9zEmz4sFLgK7AFeFhX2mhYu0xFiA.aGLr/XgP7Gc9TFh42",
+    "role": "user",
+    "createdAt": "2026-10-06T06:44:56.681Z",
+    "lastSignInAt": "2026-10-06T06:44:56.681Z"
+  },
+  {
+    "id": "usr_1791269107770_81bv8",
+    "name": "Artisan Gifts Co",
+    "email": "artisan@example.com",
+    "password": "$2b$10$yGkmPScgIiZKOxBJnFtt3um8SpWzDnOF6Jf0cDkySJTaBY35lMXre",
+    "role": "seller",
+    "createdAt": "2026-10-06T06:45:07.687Z",
+    "lastSignInAt": "2026-10-06T06:45:07.687Z"
+  }
+]

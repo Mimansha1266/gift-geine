@@ -1,0 +1,48 @@
+.faq-section {
+  width: 75%;
+  margin: 100px auto;
+}
+
+.faq-list {
+  display: grid;
+  gap: 16px;
+}
+
+.faq-item {
+  background: white;
+  border-radius: 22px;
+  box-shadow: 0 14px 35px rgba(91, 43, 112, 0.08);
+  overflow: hidden;
+}
+
+.faq-item button {
+  width: 100%;
+  padding: 22px;
+  background: white;
+  border: none;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 900;
+  color: #241331;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-item p {
+  padding: 0 22px 22px;
+  color: #6b6472;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .faq-section {
+    width: 90%;
+  }
+}
+.faq-section {
+  text-align: center;
+}
+
+.faq-section .section-badge {
+  margin: 0 auto 18px;
+}

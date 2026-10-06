@@ -1,0 +1,166 @@
+
+.brands-section {
+  width: 90%;
+  margin: 90px auto;
+  text-align: center;
+}
+
+/* Badge */
+
+.brands-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 14px 28px;
+
+  border-radius: 999px;
+
+  background: rgba(255,255,255,.92);
+
+  border: 1px solid rgba(123,47,247,.18);
+
+  color: #7b2ff7;
+
+  font-size: 17px;
+  font-weight: 800;
+
+  letter-spacing: .6px;
+
+  box-shadow:
+      0 12px 30px rgba(123,47,247,.12);
+}
+
+/* Heading */
+
+.brands-header h2 {
+  margin-top: 22px;
+  font-size: 52px;
+  font-weight: 800;
+  color: #241031;
+}
+
+.brands-header p {
+  max-width: 720px;
+  margin: 22px auto 0;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #6b6172;
+}
+
+/* Grid */
+
+.brands-grid {
+  margin-top: 55px;
+
+  display: grid;
+
+  grid-template-columns: repeat(7, 1fr);
+
+  gap: 22px;
+
+  align-items: center;
+}
+
+/* Card */
+
+.brand-card {
+
+  height: 125px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 22px;
+
+  background: rgba(255,255,255,.92);
+
+  border: 1px solid rgba(123,47,247,.10);
+
+  box-shadow:
+      0 18px 40px rgba(123,47,247,.08);
+
+  transition: .35s ease;
+
+  cursor: pointer;
+}
+
+/* Logo */
+
+.brand-card img{
+  width: 120px;
+  max-height: 55px;
+  object-fit: contain;
+
+  transition: .35s;
+}
+
+/* Hover */
+
+.brand-card:hover{
+
+  transform: translateY(-8px) scale(1.04);
+
+  background: linear-gradient(
+      135deg,
+      #7b2ff7,
+      #b44b91,
+      #d97757
+  );
+
+  box-shadow:
+      0 25px 45px rgba(123,47,247,.22);
+}
+
+.brand-card:hover img{
+  transform: scale(1.08);
+  filter: brightness(0) invert(1);
+}
+
+/* ---------- Responsive ---------- */
+
+@media(max-width:1200px){
+
+  .brands-grid{
+    grid-template-columns: repeat(4,1fr);
+  }
+
+}
+
+@media(max-width:900px){
+
+  .brands-grid{
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .brands-header h2{
+    font-size:42px;
+  }
+
+}
+
+@media(max-width:650px){
+
+  .brands-grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .brands-header h2{
+    font-size:34px;
+  }
+
+  .brands-header p{
+    font-size:17px;
+  }
+
+}
+
+@media(max-width:480px){
+
+  .brands-grid{
+    grid-template-columns:1fr;
+  }
+
+}

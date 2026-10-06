@@ -1,0 +1,20 @@
+[
+  {
+    "id": "prod_1791268122494_hfwi9",
+    "sellerId": "seller_demo",
+    "sellerName": "GiftGenie Seller",
+    "sellerEmail": "",
+    "title": "Handmade Luxury Leather Journal",
+    "description": "Custom engraved vintage leather journal with deckle edge paper.",
+    "price": "₹1,899",
+    "purchaseUrl": "https://amazon.in/dp/B0EXAMPLE1",
+    "category": "Personalized Keepsakes",
+    "tags": [
+      "leather",
+      "journal",
+      "anniversary",
+      "handmade"
+    ],
+    "createdAt": "2026-10-06T06:28:42.493Z"
+  }
+]
