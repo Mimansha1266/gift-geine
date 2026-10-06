@@ -15,7 +15,7 @@
     "password": "$2b$10$/1Q07JsLk5GQgMqLZxCep.ZOZFdgylrK77yT44CrL6ncxlnRd2EUe",
     "role": "user",
     "createdAt": "2026-10-06T06:10:55.088Z",
-    "lastSignInAt": "2026-10-06T06:10:59.876Z"
+    "lastSignInAt": "2026-10-06T12:10:06.066Z"
   },
   {
     "id": "usr_1791267258354_rwdd4",
@@ -36,15 +36,6 @@
     "lastSignInAt": "2026-10-06T06:15:28.499Z"
   },
   {
-    "id": "usr_1791269096832_j18yy",
-    "name": "Test User",
-    "email": "testuser@example.com",
-    "password": "$2b$10$YNrQrHU9zEmz4sFLgK7AFeFhX2mhYu0xFiA.aGLr/XgP7Gc9TFh42",
-    "role": "user",
-    "createdAt": "2026-10-06T06:44:56.681Z",
-    "lastSignInAt": "2026-10-06T06:44:56.681Z"
-  },
-  {
     "id": "usr_1791269107770_81bv8",
     "name": "Artisan Gifts Co",
     "email": "artisan@example.com",
@@ -52,5 +43,14 @@
     "role": "seller",
     "createdAt": "2026-10-06T06:45:07.687Z",
     "lastSignInAt": "2026-10-06T06:45:07.687Z"
+  },
+  {
+    "id": "usr_1791274689866_pquov",
+    "name": "GiftVerse",
+    "email": "rahul@gift.in",
+    "password": "$2b$10$I3JijB5lkayH3Xl.G.u1XejYL/KZlZSkq7ZdEMLX.V2FrF8DhtTQy",
+    "role": "seller",
+    "createdAt": "2026-10-06T08:18:09.756Z",
+    "lastSignInAt": "2026-10-06T08:18:09.756Z"
   }
 ]
