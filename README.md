@@ -1,36 +1,141 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎁 Gift Genie
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
+![Next.js](https://img.shields.io/badge/Next.js-15+-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-19+-61DAFB?style=for-the-badge&logo=react)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
+![Status](https://img.shields.io/badge/Status-Active_Development-success?style=for-the-badge)
+
+**Your Personal AI-Powered Gift Recommendation & Celebration Platform.**
+
+[Report Bug](https://github.com/Mimansha1266/gift-geine/issues) · [Request Feature](https://github.com/Mimansha1266/gift-geine/issues)
+
+</div>
+
+---
+
+## 📖 About The Project
+
+Finding the perfect gift can be stressful, whether for birthdays, anniversaries, holidays, or corporate events. **Gift Genie** takes the guesswork out of gifting by offering personalized gift suggestions tailored to recipient preferences, occasions, relationships, and budgets.
+
+Built with performance, modern UX, and scalability in mind using Next.js App Router, React Context for state management, and modern component design.
+
+---
+
+## ✨ Features
+
+- 🎯 **Tailored Recommendations**: Intelligent suggestions filtered by budget, occasion, recipient interests, and relationship.
+- 👥 **Multi-Role Experience**: Custom access, flows, and capabilities tailored for users, gift creators/vendors, and admins.
+- ⚡ **Modern & Responsive UI**: Clean, mobile-first design crafted with Tailwind CSS and reusable modular components.
+- 🔐 **Authentication & Context**: Global state management handling sessions, user preferences, and saved gift registries.
+- 📦 **Scalable Data Architecture**: Cleanly decoupled models, client context, and mock/API services ready for cloud integrations.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Library**: [React](https://react.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Linting & Formatting**: ESLint (Flat Config)
+- **State Management**: React Context API
+- **Deployment**: Vercel / Cloudflare
+
+---
+
+## 📁 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+gift-geine/
+├── app/                  # Next.js App Router (Pages, layouts, and API routes)
+├── components/           # Reusable UI elements (Buttons, Cards, Modals)
+├── context/              # Global state providers (Auth, Preferences, Cart/Wishlist)
+├── data/                 # Static datasets, mock recommendations, and schemas
+├── lib/                  # Helper utilities, constants, and API clients
+├── models/               # Data structures, schemas, and TypeScript/data models
+├── public/               # Static assets, icons, and branding images
+├── .env.example          # Environment variable templates
+└── eslint.config.mjs     # ESLint configuration
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Follow these instructions to set up the project locally on your machine.
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+Make sure you have Node.js and a package manager installed:
+- [Node.js](https://nodejs.org/) (v18.17 or higher recommended)
+- `npm`, `yarn`, `pnpm`, or `bun`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Mimansha1266/gift-geine.git
+   cd gift-geine
+   ```
 
-## Deploy on Vercel
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   pnpm install
+   # or
+   yarn install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Configure Environment Variables:**
+   Copy the example environment file and fill in your keys:
+   ```bash
+   cp .env.example .env.local
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open in browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000) to view the application live.
+
+---
+
+## ⚙️ Available Scripts
+
+In the project directory, you can run:
+
+- `npm run dev` — Starts the development server with Hot Module Replacement.
+- `npm run build` — Compiles and builds the production bundle.
+- `npm run start` — Runs the compiled production build locally.
+- `npm run lint` — Runs ESLint to check for code consistency and errors.
+
+---
+
+## 🤝 Contributing
+
+Contributions make the open-source community an incredible place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'feat: add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+## 📬 Contact & Author
+
+**Mimansha Chaudhary**  
+- GitHub: [@Mimansha1266](https://github.com/Mimansha1266)
+- Project Link: [https://github.com/Mimansha1266/gift-geine](https://github.com/Mimansha1266/gift-geine)
